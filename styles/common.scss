@@ -1,0 +1,29 @@
+.action-button {
+  width: 160px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #3040c4;
+  border-radius: 2px;
+  border: none;
+}
+
+.hide_desctop {
+  @include for-large-up {
+    display: none;
+  }
+}
+
+.hide_mobile {
+  @include for-large-down {
+    display: none;
+  }
+}
+
+.icon-arrow_right {
+  display: block;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-arrow-right.png);
+  width: 7px;
+  height: 12px;
+}
